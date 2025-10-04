@@ -1,0 +1,109 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, label, select, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Background and page setup */
+body {
+    background-color: #0f1117;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* Title section */
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    background-color: #1a1c23;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 0.95rem;
+    color: #b0b3b8;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Inputs and dropdowns */
+input, select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #2c2f36;
+    border-radius: 8px;
+    background-color: #2c2f36;
+    color: #ffffff;
+    font-size: 0.95rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #4f8cff;
+    outline: none;
+}
+
+/* Submit button */
+button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff4c5b;
+    transform: translateY(-2px);
+}
+
+/* Prediction result */
+h1 {
+    color: #ffffff;
+    margin-top: 25px;
+    text-align: center;
+}
+
+h2 {
+    color: #00ff91;
+    text-align: center;
+    margin-top: 10px;
+    background: #052e20;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    form {
+        width: 90%;
+        padding: 25px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
