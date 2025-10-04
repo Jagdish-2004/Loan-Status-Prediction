@@ -113,7 +113,7 @@ Flask, Pandas, NumPy, Scikit-learn, Pickle
 -------------------------------------------------------------
 🧑‍💻 Author
 
-Your Name  
+Jagdish Choudhary  
 GitHub: https://github.com/<your-username>  
 
 -------------------------------------------------------------
